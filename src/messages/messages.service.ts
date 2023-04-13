@@ -9,7 +9,7 @@ export class MessagesService {
   }
 
   findAll() {
-    return `This action returns all messages`;
+    return {exampleField: "123"};
   }
 
   findOne(id: number) {
