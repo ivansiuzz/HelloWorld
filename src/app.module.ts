@@ -10,6 +10,7 @@ import { MessagesModule } from './messages/messages.module';
   imports: [
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
+      introspection: true,
       playground: true,
       autoSchemaFile: true,
       installSubscriptionHandlers: true
